@@ -9,7 +9,7 @@ import torch.nn as nn
 import numpy as np
 from bucket_iterator import BucketIterator
 from data_utils import ABSADataReader, ABSADataReaderV2, build_tokenizer, build_embedding_matrix
-from models import CMLA, HAST, OTE
+from models import HAST, OTE
 
 class Instructor:
     def __init__(self, opt):
